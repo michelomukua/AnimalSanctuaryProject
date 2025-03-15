@@ -1,11 +1,15 @@
 package com.skilldistillery.animals.entities;
 
 public class Cow extends Animal {
-	private static String noise;
+	private static String noise = "Moo";
 	
 	public void makeNoise() {
-		String makeNoise = "Moo";
+	System.out.println(noise);
 	}
 
-	public void eat(amount: int);
+	public void eat(int amount) {
+		makeNoise();
+		System.out.println("I am chewing on " +amount + " bale of hay");
+		
+	}
 }

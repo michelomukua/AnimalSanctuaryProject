@@ -1,6 +1,9 @@
 package com.skilldistillery.animals.app;
 
-//has a scanner
+import java.util.Scanner;
+
+import com.skilldistillery.animals.entities.Cow;
+
 public class AnimalSanctuaryApp {
 
 	public static void main(String[] args) {

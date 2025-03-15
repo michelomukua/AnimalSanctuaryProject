@@ -1,13 +1,14 @@
 package com.skilldistillery.animals.entities;
 
 public class Lion extends Animal {
-	private static String noise;
+	private static String noise ="ROARR";
 	
 	public void makeNoise() {
-		String makeNoise = "ROARR";
+		System.out.println(noise);
 	}
 
 	public void eat(int amount) {
-		
+		makeNoise();
+		System.out.println("I am munching on " +amount + " ribs");
 	}
 }
