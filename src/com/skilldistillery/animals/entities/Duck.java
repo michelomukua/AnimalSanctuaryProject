@@ -2,6 +2,11 @@ package com.skilldistillery.animals.entities;
 
 public class Duck extends Animal {
 	private static String noise = "Quack";
+	public Duck(String name) {
+		super(name);
+		// TODO Auto-generated constructor stub
+	}
+
 	
 	public void makeNoise() {
 		System.out.println(noise);
