@@ -3,6 +3,9 @@
 ## Overview
 This application models an animal sanctuary. The sanctuary has space for five types of animals: Cow, Duck, Lion, Gorilla and Hyena. The animals live happy lives and are cared for by an attendant.
 The application is to help the user find available space to house and feed individuals of those specified animal types. The application will indicate also indicate if there is/ are no space to house the animals. 
+The Animal class was created with name and sound as defining common properties. This class was made public as the superclass. Specific species extended the animal class forming the subclasses. These were Cow, Duck, Lion, Gorilla and Hyena. The subclasses  defining state and behavior unique to each species were also created such as the sounds made by the species while being fed. 
+A public Attendant class was also created to house the animals in available enclosures and feed the individual animals. 
+
 
 
 ## Technologies / Concepts Used
