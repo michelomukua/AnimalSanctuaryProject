@@ -10,7 +10,7 @@ public class Animal {
 		
 	}
 	public void eat(int amount) {
-		
+
 	}
 	public String getName() {
 		return name;

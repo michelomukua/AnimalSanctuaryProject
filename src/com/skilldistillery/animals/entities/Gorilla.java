@@ -1,8 +1,8 @@
 package com.skilldistillery.animals.entities;
 
-public class Duck extends Animal {
-	private static String noise = "Quack";
-	public Duck(String name) {
+public class Gorilla extends Animal {
+	private static String noise = "Grrrrr";
+	public Gorilla(String name) {
 		super(name);
 	}
 
@@ -13,11 +13,10 @@ public class Duck extends Animal {
 		}
 	public void eat(int amount){
 		makeNoise();
-		System.out.println("I am pecking on " +amount + " delicious sadines");
+		System.out.println("I am pecking on " +amount + " bamboo");
 	}
 	
 	{
 		
 	}
 }
-
